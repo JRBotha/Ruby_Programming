@@ -15,6 +15,7 @@ def caesar_cipher(message, key)
     end
   end.join("")
   return message
+  
 end
 
-caesar_cipher("What a string!",5)
+puts caesar_cipher("What a string!",5)
