@@ -3,7 +3,6 @@ def bubble_sort(bubble_array)
     shift = true
     runs = 1
 
-
         while sorting < bubble_array.size.to_i - 1 && runs < bubble_array.size - 1
         
             if bubble_array[sorting] > bubble_array[sorting + 1]
